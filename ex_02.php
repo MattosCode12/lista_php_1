@@ -16,3 +16,5 @@ echo "<h3>Exercício 02</h3>";
 inverterTexto($texto);
 
 echo "<hr>";
+
+?>
