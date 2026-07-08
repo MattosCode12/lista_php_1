@@ -6,7 +6,7 @@ function converterTemperatura($valor, $origem, $destino)
         return $valor;
     }
 
-    // Celsius
+
     if ($origem == "C" && $destino == "F") {
         return ($valor * 9/5) + 32;
     }
@@ -15,7 +15,7 @@ function converterTemperatura($valor, $origem, $destino)
         return $valor + 273.15;
     }
 
-    // Fahrenheit
+    
     if ($origem == "F" && $destino == "C") {
         return ($valor - 32) * 5/9;
     }
@@ -24,7 +24,7 @@ function converterTemperatura($valor, $origem, $destino)
         return (($valor - 32) * 5/9) + 273.15;
     }
 
-    // Kelvin
+    
     if ($origem == "K" && $destino == "C") {
         return $valor - 273.15;
     }
