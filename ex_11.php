@@ -16,3 +16,5 @@ $texto = "programação em php";
 formatarTexto($texto);
 
 echo "<hr>";
+
+?>
