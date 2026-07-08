@@ -1,4 +1,4 @@
-<? php
+<?php
 
 //(x2+y2)/(x+y)
 function calcularFormula($x, $y)
